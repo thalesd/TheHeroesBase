@@ -1,11 +1,10 @@
 const Footer = () => {
     return ( 
-        <>
-            <hr/>
+        <footer>
             <div>
-                Copyright 2023
+                Copyright 2023 The Heroes Base
             </div>
-        </>
+        </footer>
      );
 }
  

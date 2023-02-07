@@ -7,11 +7,10 @@ const Navbar = () => {
                 <h1>The Heroes Base</h1>
             </div>
             
-            <Link href={"/"}>Home</Link>
-            <Link href={"/about"}>About</Link>
-            <Link href={"/heroes"}>Hero List</Link>
-            <Link href={"/villains"}>Villains List</Link>
-            <hr />
+            <Link href={"/"} className={"link"}>Home</Link>
+            <Link href={"/about"} className={"link"}>About</Link>
+            <Link href={"/heroes"} className={"link"}>Heroes List</Link>
+            <Link href={"/villains"} className={"link"}>Villains List</Link>
         </nav>
      );
 }
