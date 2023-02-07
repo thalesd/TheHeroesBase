@@ -11,14 +11,24 @@
   width:100%;
   padding: 2rem;
   border-radius: 10px;
-  background-color: #aaa;
+  background-color: #79a16691;
 }
-.btn {
+.btnHeroes {
   display: inline-block;
   width: 150px;
   padding: 8px 0;
   margin: auto 20px;
-  background: #4979ff;
+  background: #208091;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+.btnVillains {
+  display: inline-block;
+  width: 150px;
+  padding: 8px 0;
+  margin: auto 20px;
+  background: #a82525;
   border-radius: 4px;
   color: white;
   text-align: center;
